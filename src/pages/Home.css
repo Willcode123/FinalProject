@@ -1,0 +1,110 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(242, 239, 239);
+  background-color: black
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #037afa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.movie-card h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
+
+.movie-card img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.favourites-container {
+  margin-top: 20px;
+  background-color: #037afa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.favourites-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(251, 251, 251);
+  width: 100%;
+  text-align: center;
+}
+
+.favourite-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.favourite-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.favourite-card p {
+  margin: 5px 0;
+}
+
+.favourite-card img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.favourite-card button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

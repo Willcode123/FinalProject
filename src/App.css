@@ -1,0 +1,153 @@
+/* Estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Barra de navegación */
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: rgb(204, 180, 20);
+  padding: 10px;
+}
+
+
+
+.navbar-links {
+  list-style: armenian;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+  justify-content: center;
+}
+
+.navbar-links li a {
+  color: rgb(179, 74, 74);
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
+/* Barra de búsqueda */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Resultados de búsqueda */
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.search-results h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.search-results button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Lista de favoritos */
+.favorites-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.favorites-list h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.favorites-list button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Formulario de contacto */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Página de reseñas de películas */
+.movie-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movie-reviews button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

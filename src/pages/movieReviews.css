@@ -1,0 +1,139 @@
+.movie-reviews-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.movie-reviews-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(242, 239, 239);
+  background-color: black;
+}
+
+.movie-reviews-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.movie-reviews-container button {
+  padding: 10px 20px;
+  background-color: #037afa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-item {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.movie-item h3.movie-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.movie-item button.movie-button {
+  padding: 5px 10px;
+  background-color: #037afa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-item img.movie-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.selected-movie-container {
+  margin-top: 20px;
+  background-color: #037afa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.selected-movie-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(14, 14, 14);
+}
+
+.selected-movie-container h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.rating-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.rating-container span {
+  cursor: pointer;
+  color: gray;
+  margin-right: 5px;
+}
+
+.rating-container span:hover,
+.rating-container span:focus {
+  color: Blue;
+}
+
+.selected-movie-container h4 {
+  margin-bottom: 10px;
+}
+
+.selected-movie-container textarea {
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.add-review-button {
+  padding: 10px 20px;
+  background-color: #037afa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(242, 239, 239);
+  background-color: black;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+ul li p {
+  margin: 5px 0;
+}
